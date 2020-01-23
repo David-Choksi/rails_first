@@ -8,4 +8,8 @@ class ApplicationController < ActionController::Base
   def bye
     render html: "goodnight"
   end
+
+  def good_afternoon
+    render html: "afternoon time"
+  end
 end
